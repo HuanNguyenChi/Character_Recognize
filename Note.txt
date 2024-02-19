@@ -10,3 +10,7 @@ Do đó độ dài của list đại diện cho mỗi dòng là 28*28 + 1 = 785.
 
 2. Ảnh để test cần là ảnh png, sau đó chuyển về dạng grey -> Dùng hàm threshold để lấy những đặc trưng
     -> chuyển về ma trận điểm ảnh, chia các điểm ảnh cho 255 -> reshape rồi chuyển vào model
+
+
+NOTE: File data có thể lấy tại đường link:
+	https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format
