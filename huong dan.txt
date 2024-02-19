@@ -1,0 +1,5 @@
+Hướng dân:
+1.tải file data tại link: https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format
+2.thay đổi liên kết data trong file train
+3.chạy file train để sinh ra các model
+4.chạy app để khởi động ứng dụng
