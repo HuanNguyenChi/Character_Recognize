@@ -1,0 +1,12 @@
+Mỗi dòng đại diện cho một ảnh có kích thước 28*28, ký tự đầu tiên đại diện cho 
+class mà ảnh đó thuộc về.
+Ví dụ:
+
+A là class 0
+B là class 1
+...
+Z là class 26
+Do đó độ dài của list đại diện cho mỗi dòng là 28*28 + 1 = 785.
+
+2. Ảnh để test cần là ảnh png, sau đó chuyển về dạng grey -> Dùng hàm threshold để lấy những đặc trưng
+    -> chuyển về ma trận điểm ảnh, chia các điểm ảnh cho 255 -> reshape rồi chuyển vào model
